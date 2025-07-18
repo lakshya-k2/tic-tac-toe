@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #2A2B2E;
+}
+
+#name {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.game {
+    margin-top: 3vmin;
+    margin-left: 45vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+
+}
+
+.btn {
+    text-align: center;
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #A4C2A8;
+    border: none;
+    border-radius: 1vmin;
+    font-size: 10vmin;
+    color: #2A2B2E;
+}
+
+.btn:hover {
+    background: #7ccc86;
+}
+
+.resetBtn {
+    margin-top: 3vmin;
+    background-color: red;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vmin;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-family: Comic Neue, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.resetBtn:hover {
+    background-color: darkred;
+}
+
+#result {
+    margin-top: 3vmin;
+    font-size: 6vmin;
+    color: aqua;
+}
+
+.container {
+    display: flex;
+}
+
+.leaderboard {
+    text-align: left;
+    margin-right: 4vmin;
+    margin-left: 5vmin;
+    height: 20vmin;
+    width: 20vmin;
+    background-color: rgba(149, 149, 149, 0.5);
+    border-radius: 1rem;
+    padding: 2.5vmin;
+    color: white;
+}
+
+.players {
+    margin-top: 2vmin;
+    padding: 0.5vmin;
+    font-size: larger;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.area {
+    display:flex ;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 1.5vmin;
+    width: 50vmin;
+    color: aliceblue;
+    font-size: larger;
+
+}
+.area input{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1vmin;
+    resize: none;
+    font-size: large
+}
+
+.chance{
+    color: white;
+    margin-top: 2vmin;
+    font-size: larger;
+}
